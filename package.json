@@ -1,0 +1,23 @@
+{
+  "name": "standard-error",
+  "version": "1.0.0",
+  "description": "This package is to manage standard error",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js",
+    "start": "nodemon app.js tsc --watch"
+  },
+  "keywords": [],
+  "author": "Mohammad Khairi",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "assert-plus": "^1.0.0"
+  }
+}
