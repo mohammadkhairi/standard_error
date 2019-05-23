@@ -1,8 +1,7 @@
-#Standard Error
+# Standard Error
 
-##Purpose
-
+## Purpose
 The purpose of this package is to standard all of the error in the application
 
-##Installation
+## Installation
 npm install https://github.com/mohammadkhairi/standard_error.git
