@@ -13,7 +13,7 @@ class StandardError extends Error {
 
         this.error_code = errorCode;
         this.message = message;
-        //this.stack = (Error()).stack;
+        this.stack = (Error()).stack;
         this.last_error = lastError;
         this.context = context;
 
