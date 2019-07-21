@@ -9,7 +9,7 @@ class StandardError extends Error {
         assert.optionalObject(lastError);
         assert.optionalObject(context);
 
-        super(message);
+        super();
 
         this.error_code = errorCode;
         this.message = message;
